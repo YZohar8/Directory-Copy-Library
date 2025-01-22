@@ -61,7 +61,7 @@ ar rcs libcopytree.a copytree.o
 
 2. **Build Main Program**
 ```bash
-gcc main.c -L. -lcopytree -o main_program
+gcc part3.c -L. -lcopytree -o main_program
 ```
 
 ## Usage Guide 📚
