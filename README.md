@@ -53,6 +53,8 @@ int copy_directory(const char* source, const char* destination,
 
 1. **Compile the Library**
 ```bash
+git clone https://github.com/YZohar8/Directory-Copy-Library.git
+cd Directory-Copy-Library
 gcc -c copytree.c -o copytree.o
 ar rcs libcopytree.a copytree.o
 ```
